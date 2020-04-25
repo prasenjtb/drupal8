@@ -1,0 +1,9 @@
+global-styling:
+  version: VERSION
+  css:
+    theme:
+      css/custom_config.css: {}
+  js:
+    js/customconfig.js: {}
+  dependencies:
+    - core/drupal

@@ -1,0 +1,9 @@
+name: Custom Config
+type: module
+description: A Custom Config Module.
+core: 8.x
+package: Custom
+version: 1.0
+configure: customconfig.admin_settings
+libraries:
+  - customconfig/module-styling

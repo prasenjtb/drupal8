@@ -1,0 +1,7 @@
+customconfig.admin_settings:
+  path: '/admin/config/customconfig'
+  defaults:
+    _form: '\Drupal\customconfig\Form\ModuleConfigurationForm'
+    _title: 'custom-config configuration screen'
+  requirements:
+    _permission: 'administer site configuration'
